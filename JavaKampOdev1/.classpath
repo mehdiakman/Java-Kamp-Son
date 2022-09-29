@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="arkadasSayilar/src"/>
+	<classpathentry kind="src" path="arraysDemo/src"/>
+	<classpathentry kind="src" path="conditionals/src"/>
+	<classpathentry kind="src" path="dataTypes/src"/>
+	<classpathentry kind="src" path="findNumber/src"/>
+	<classpathentry kind="src" path="forLoops/src"/>
+	<classpathentry kind="src" path="intro/src"/>
+	<classpathentry kind="src" path="miniProjeAsalSayi/src"/>
+	<classpathentry kind="src" path="mukemmelSayi/src"/>
+	<classpathentry kind="src" path="multiDimensionalArrayDemo/src"/>
+	<classpathentry kind="src" path="recapDemo1/src"/>
+	<classpathentry kind="src" path="recapDemo2/src"/>
+	<classpathentry kind="src" path="sesliHarfler/src"/>
+	<classpathentry kind="src" path="stringsDemo/src"/>
+	<classpathentry kind="src" path="switch/src"/>
+	<classpathentry kind="src" path="variables/src"/>
+	<classpathentry kind="output" path="arkadasSayilar/out/production/arkadasSayilar"/>
+</classpath>
