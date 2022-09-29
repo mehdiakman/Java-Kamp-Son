@@ -1,0 +1,71 @@
+package classesWithAttributes;
+
+//CLASS LARIN EN BÜYÜK ÖZELLİĞİ ORTAK OPERASYONLARI TUTMAK. !
+//CLASS LARIN BİR DİĞER ÖZELLİĞİ İSE ÖZELLİK TUTMAK. !
+// this benim içinde bulunduğum classtır. Ya da başıan "_" koymak bestpra. "_" ile olanlar field.
+
+public class Product {
+	// attribute & field
+	private int id;
+	String name;
+	String description;
+	double price;
+	int stockAmount;
+	String renk;
+	String kod;
+
+	// getter
+	public int getId() {
+		return id;
+	}
+
+	// setter
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getDescription() {
+		return description;
+	}
+
+	public void setDescription(String description) {
+		this.description = description;
+	}
+
+	public double getPrice() {
+		return price;
+	}
+
+	public void setPrice(double price) {
+		this.price = price;
+	}
+
+	public int getStockAmount() {
+		return stockAmount;
+	}
+
+	public void setStockAmount(int stockAmount) {
+		this.stockAmount = stockAmount;
+	}
+
+	public String getRenk() {
+		return renk;
+	}
+
+	public void setRenk(String renk) {
+		this.renk = renk;
+	}
+	//kod sadece okunabili oldu set kısmı silindi ve return kısmı düzeltildi.
+	public String getKod() {
+		return this.name.substring(0,1) + id;
+	}
+
+}

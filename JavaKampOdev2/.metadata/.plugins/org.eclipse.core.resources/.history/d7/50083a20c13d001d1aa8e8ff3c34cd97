@@ -1,0 +1,7 @@
+package reCapDemo_Classes;
+
+public class Main {
+	DortIslem dortIslem=new DortIslem();
+	dortIslem.Topla(3,4);
+	
+}

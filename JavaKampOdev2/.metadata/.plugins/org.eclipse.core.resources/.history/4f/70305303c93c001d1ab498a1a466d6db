@@ -1,0 +1,12 @@
+package methods;
+
+public class Main {
+
+	public static void main(String[] args) {
+		int sayi1 = 6;
+		int sayi2 = 4;
+		int toplam = sayi1 + sayi2;
+		System.out.println(toplam);
+	}
+
+}

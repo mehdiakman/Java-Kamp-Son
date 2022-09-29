@@ -1,0 +1,12 @@
+package classesWithAttributes;
+
+public class ProductMAnager {
+	public void Add (Product product) {
+		//JDBC
+		System.out.println("Ürün ekledi : " + product.getName());
+	}
+
+	public void Add2(int Id, String Name, String Description, int stockAmount, double Price, String Renk) {
+		
+	}
+}

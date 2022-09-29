@@ -1,0 +1,25 @@
+package classesWithAttributes;
+
+
+//CLASS LARIN EN BÜYÜK ÖZELLİĞİ ORTAK OPERASYONLARI TUTMAK. !
+//CLASS LARIN BİR DİĞER ÖZELLİĞİ İSE ÖZELLİK TUTMAK. !
+// this benim içinde bulunduğum classtır. Ya da başıan "_" koymak bestpra. "_" ile olanlar field.
+
+public class Product {
+	//attribute & field
+	private int _id;
+	private String _name;
+	private String _description;
+	private double _price;
+	private int _stockAmount;
+	private String _renk;
+	private String _kod;
+	
+	public int getId() {
+		return _id;
+	}
+	
+	public void setId(int id) {
+		_id=id;
+	}
+}

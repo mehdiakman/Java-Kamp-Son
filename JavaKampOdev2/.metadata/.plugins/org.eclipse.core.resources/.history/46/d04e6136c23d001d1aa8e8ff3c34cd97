@@ -1,0 +1,14 @@
+package classesWithAttributes;
+
+
+//CLASS LARIN EN BÜYÜK ÖZELLİĞİ ORTAK OPERASYONLARI TUTMAK. !
+//CLASS LARIN BİR DİĞER ÖZELLİĞİ İSE ÖZELLİK TUTMAK. !
+
+
+public class Product {
+	int id;
+	String name;
+	String description;
+	double price;
+	int stockAmount;
+}
