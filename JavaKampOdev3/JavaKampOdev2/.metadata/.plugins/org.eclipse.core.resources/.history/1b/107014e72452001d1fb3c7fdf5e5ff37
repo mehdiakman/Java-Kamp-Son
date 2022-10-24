@@ -1,0 +1,7 @@
+package kodlamaio4.business;
+
+import kodlamaio4.entities.Instructor;
+
+public class InstructorManager {
+	public void add(Instructor instructor);
+}

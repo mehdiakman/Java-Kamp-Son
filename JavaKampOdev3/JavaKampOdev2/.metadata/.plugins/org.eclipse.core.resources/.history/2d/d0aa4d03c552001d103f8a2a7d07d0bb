@@ -1,0 +1,17 @@
+package kodlamaio4.business;
+
+import kodlamaio4.dataAccess.InstructorDao;
+import kodlamaio4.entities.Instructor;
+
+public class InstructorManager {
+
+	private InstructorDao instructorDao;
+
+	public InstructorManager(InstructorDao instructorDao) {
+		this.instructorDao = instructorDao;
+	}
+
+	public void add(Instructor instructor) {
+
+	}
+}

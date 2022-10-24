@@ -1,0 +1,16 @@
+
+public class TeacherCreditManager implements ICreditManager, extends BaseCreditManager {
+
+	@Override
+	public void Calculate() {
+		System.out.println("Öğretmen Kredisi hesaplandı ");
+		
+	}
+
+	@Override
+	public void Save() {
+		System.out.println("Kaydedildi");
+		
+	}
+
+}

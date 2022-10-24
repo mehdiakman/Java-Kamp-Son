@@ -1,0 +1,15 @@
+package kodlamaio4.business;
+
+import kodlamaio4.dataAccess.JdbcCourseDao;
+import kodlamaio4.entities.Course;
+
+public class CourseManager {
+	public void add(Course course) throws Exception {
+		if(course.getCoursePrice()<0) {
+			throw new Exception (" Kurs fiyatı 0 dan küçük olamaz ");
+		}
+		
+		JdbcCourseDao courseDao = new JdbcCourseDao();
+		
+	}
+}

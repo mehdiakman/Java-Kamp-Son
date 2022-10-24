@@ -1,0 +1,9 @@
+package kodlamaio4.business;
+
+import kodlamaio4.entities.Course;
+
+public class CourseManager {
+	public void add(Course course) {
+		
+	}
+}

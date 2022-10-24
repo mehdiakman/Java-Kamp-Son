@@ -1,0 +1,23 @@
+package kodlamaio4.business;
+
+import kodlamaio4.dataAccess.CategoryDao;
+import kodlamaio4.dataAccess.JdbcCategoryDao;
+import kodlamaio4.entities.Category;
+
+public class CategoryManager {
+	
+	
+	
+	
+	public void add(Category category) throws Exception{
+		for (Category c : categories) {
+			if(c.getCategoryName().equals(category.getCategoryName())) {
+				throw new Exception("Kategori ismi tekrar edemez");
+			}
+			
+			CategoryDao categoryDao = new JdbcCategoryDao();
+			categoryDao.add(category);
+			
+		}
+	}
+}

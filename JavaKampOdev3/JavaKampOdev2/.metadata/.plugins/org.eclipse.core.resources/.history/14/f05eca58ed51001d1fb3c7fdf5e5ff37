@@ -1,0 +1,5 @@
+package kodlamaio3.corelogging;
+
+public class FileLogger {
+
+}

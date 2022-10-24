@@ -1,0 +1,14 @@
+package reCapDemo_Classes;
+
+public class Main {
+
+	public static void main(String[] args) {
+		DortIslem dortIslem = new DortIslem();
+		int sonuc = dortIslem.Topla(3, 4);
+		System.out.println(sonuc);
+
+	}
+
+}
+// CLASS LARIN EN BÜYÜK ÖZELLİĞİ ORTAK OPERASYONLARI TUTMAK. !
+// CLASS LARIN BİR DİĞER ÖZELLİĞİ İSE ÖZELLİK TUTMAK. !

@@ -1,0 +1,7 @@
+package kodlamaio4.dataAccess;
+
+public class JdbcCategoryDao {
+	public void add() {
+		System.out.println("Jdbc ile veritabanına eklendi");
+	}
+}

@@ -1,0 +1,9 @@
+package kodlamaio4.dataAccess;
+
+import kodlamaio4.entities.Instructor;
+
+public class JdbcInstructorDao implements InstructorDao{
+	public void add(Instructor ınstInstructor) {
+		System.out.println("Jdbc ile veritabanına eklendi");
+	}
+}

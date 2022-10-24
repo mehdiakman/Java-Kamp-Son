@@ -1,0 +1,17 @@
+package kodlamaio4;
+
+import kodlamaio4.business.CourseManager;
+import kodlamaio4.dataAccess.JdbcCourseDao;
+import kodlamaio4.entities.Course;
+
+public class Main {
+
+	public static void main(String[] args) throws Exception {
+		Course course1 = new Course(1, "Java","Eğitim","Engin",-1);
+		Course course2 = new Course(2, "Java","Eğitim","Engin",0);
+		
+		CourseManager courseManager = new CourseManager();
+		courseManager.add(course1);
+	}
+
+}
